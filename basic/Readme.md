@@ -1,5 +1,46 @@
 # React Basics — Lecture 01
 
+# React
+
+## About
+
+React is a JavaScript library used to build user interfaces (UI), especially for web applications.
+
+In simple words, **React helps us create and manage UI using reusable components.**
+
+## Learning React.js
+
+This repository contains my **React.js learning journey, lecture code, and practice** based on the lectures by **Rohit Negi Sir**.
+
+## What I am Learning
+
+* React Basics
+* Components
+* JSX
+* Props
+* State
+* Events
+* Hooks
+* React Router
+* API Integration
+* And more...
+
+## Repository Structure
+
+```text
+React/
+├── basic/
+│   ├── app.js
+│   ├── index.html
+│   └── Readme.md
+└── README.md
+```
+
+## Progress
+
+🚀 Learning React step by step and building a strong foundation for modern web development.
+
+
 This folder explains the basic idea behind React by building the same UI in four steps.
 
 ## 1. Direct DOM Manipulation
