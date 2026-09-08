@@ -47,49 +47,51 @@
 
 
 
-// Method 3:-
+// Method 3:- custom React
 
 
-const React={
-   createElement :function (tag, attributes, children) {
-    const element = document.createElement(tag);
-    element.textContent = children;
-    for (const key in attributes) {
-        if (key === 'style') {
-            Object.assign(element.style, attributes.style);
-        }
-        else {
-            element[key] = attributes[key];
-        }
-    }
-    return element;
-}
+// const React={
+//    createElement :function (tag, attributes, children) {
+//     const element = document.createElement(tag);
+//     element.textContent = children;
+//     for (const key in attributes) {
+//         if (key === 'style') {
+//             Object.assign(element.style, attributes.style);
+//         }
+//         else {
+//             element[key] = attributes[key];
+//         }
+//     }
+//     return element;
+// }
 
-}
+// }
 
-const ReactDom={
-    render:function(element,root){
-        root.append(element);
-    }
-}
-
-
- const div = document.querySelector('.div');
-
-const el1=React.createElement('h1',{style:{color:"red",backgroundColor:"black"},id:"second",className:"c1"},"Hello Shiva")
-const el2=React.createElement('h1',{style:{color:"red",backgroundColor:"blue"},id:"first",className:"c1"},"Hello Shiv")
-
-ReactDom.render(el1,div);
-ReactDom.render(el2,div);
+// const ReactDom={
+//     render:function(element,root){
+//         root.append(element);
+//     }
+// }
 
 
+// const div = document.querySelector('.div');
+
+// const el1=React.createElement('h1',{style:{color:"red",backgroundColor:"black"},id:"second",className:"c1"},"Hello Shiva")
+// const el2=React.createElement('h1',{style:{color:"red",backgroundColor:"blue"},id:"first",className:"c1"},"Hello Shiv")
+
+// ReactDom.render(el1,div);
+// ReactDom.render(el2,div);
 
 
-// const ele = React.createElement(
-//     "h1",
-//     { color: "red", backgroundColor: "green" },
-//     "created using react"
-// );
 
-// ReactDOM.render(ele, div);
+
+// Method-4:Actual React
+const div = document.querySelector('.div');
+const ele = React.createElement(
+    "h1",
+    { className:"r1",id:'i1',style:{color: "yellow", backgroundColor: "green" ,textAlign:"center",fontFamily:"fantasy"}},
+    "created using react"
+);
+
+ReactDOM.render(ele, div);
 
