@@ -49,7 +49,7 @@
 // div.append(el1);
 // div.append(el2);
 
-// Method 3
+// Method 3:Custom React
 // const React = {
 //     createElement: function(tag, attributes, children) {
 //         const element = document.createElement(tag);
@@ -81,7 +81,7 @@
 //     {style:{color:"red", backgroundColor:"black"}, id:"second", className:"c1"},
 //     "Hello Shiva"
 // );
-
+// console.log(el1)
 // const el2 = React.createElement(
 //     'h1',
 //     {style:{color:"red", backgroundColor:"blue"}, id:"first", className:"c1"},
@@ -92,9 +92,10 @@
 // ReactDom.render(el2, div);
 
 // Method 4
+
 const div = document.querySelector('.div');
 
-const ele = React.createElement(
+const ele1 = React.createElement(
     "h1",
     {
         className: "r1",
@@ -106,7 +107,50 @@ const ele = React.createElement(
             fontFamily: "fantasy"
         }
     },
-    "created using react"
+    "el1 created using react"
 );
 
-ReactDOM.render(ele, div);
+const ele2 = React.createElement(
+    "h2",
+    {
+        className: "r1",
+        id: 'i2',
+        style: {
+            color: "yellow",
+            backgroundColor: "green",
+            textAlign: "center",
+            
+        }
+    },
+    "el2 created using react"
+);
+
+//old method
+// ReactDOM.render(ele, div);
+
+
+
+// //New Method
+// const root=ReactDOM.createRoot(div);
+// root.render(ele1);
+// root.render(ele2);
+
+//Note:The second render() replaces the first UI. It doesn't append ele2 below ele1.
+
+
+
+
+//for displaying both el1 and el2
+
+const container = React.createElement(
+    "div",
+    null,
+    ele1,
+    ele2
+);
+
+const root = ReactDOM.createRoot(div);
+
+root.render(container);
+
+
