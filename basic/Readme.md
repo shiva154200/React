@@ -1,6 +1,12 @@
 # React Basics — Lecture 01
 
-# React
+## Basic Definition
+
+React is a JavaScript library used to build user interfaces (UI), especially for web applications.
+
+In simple words, **React helps us create and manage UI using reusable components.**
+
+> Lecture 01 — Introduction to React
 
 ## About
 
@@ -252,6 +258,15 @@ Method 3 → Build a simple React + ReactDOM idea
               ↓
 Method 4 → Use actual React
 ```
+
+## Key Takeaways
+
+- React is a JavaScript library for building user interfaces.
+- React encourages building UI with reusable components.
+- `React.createElement()` describes the UI we want.
+- ReactDOM is responsible for rendering React elements into the browser DOM.
+- React styles use JavaScript objects and camelCase property names.
+- We can understand React better by first understanding how UI can be created manually with the DOM.
 
 ### The main concept to remember
 
