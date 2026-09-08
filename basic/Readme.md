@@ -197,6 +197,9 @@ This is the older ReactDOM API. In modern React (React 18+), applications normal
 
 ---
 
+<img width="1679" height="2139" alt="image" src="https://github.com/user-attachments/assets/4d439813-859a-43fe-9aba-9d6ca5d5da3b" />
+
+
 ## Quick Revision
 
 ```text
