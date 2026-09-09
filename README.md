@@ -1,6 +1,7 @@
 # React 🚀
 
 Learning **React.js** step by step through lectures by **Rohit Negi Sir**.
+https://youtube.com/playlist?list=PLQEaRBV9gAFvcKA4jL9BTLBfmBSGMWSOe&si=1_uXrzkwgARW-dVJ
 
 ## 📚 Learning Progress
 
