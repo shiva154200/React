@@ -1,6 +1,6 @@
 # React Basics — Lecture 01
 
-##Class Notes:
+## Class Notes:
 https://app.notion.com/p/Lecture-01-Introduction-To-React-2b03a78e0e2280c6b345f2ee06dc25de?source=copy_link
 
 ## Basic Definition
