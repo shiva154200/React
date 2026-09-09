@@ -1,12 +1,16 @@
 # React 🚀
 
 Learning **React.js** step by step through lectures by **Rohit Negi Sir**.
-<p >
-  Playlist:
-  <a href="https://leetcode.com/u/shivam9370/">
-   <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b" />
-   
-
+<p align="center">
+  <b>LeetCode Profile</b>
+  <br>
+  <a [href="https://leetcode.com/u/shivam9370/"](https://youtube.com/playlist?list=PLQEaRBV9gAFvcKA4jL9BTLBfmBSGMWSOe&si=1_uXrzkwgARW-dVJ)>
+    <img
+      width="20"
+      height="20"
+      alt="LeetCode"
+      src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b"
+    />
   </a>
 </p>
 ## 📚 Learning Progress
