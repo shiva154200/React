@@ -1,10 +1,11 @@
 # React 🚀
 
 Learning **React.js** step by step through lectures by **Rohit Negi Sir**.
-<p align="center">
+<p >
+  Playlist:
   <a href="https://leetcode.com/u/shivam9370/">
-   <img width="840" height="859" alt="image" src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b" />
-   Playlist link 
+   <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b" />
+   
 
   </a>
 </p>
