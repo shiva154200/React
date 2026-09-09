@@ -1,6 +1,7 @@
 # React Lecture 2 — JSX and Components
 
-## Class Notes:https://app.notion.com/p/Lecture-02-JSX-Babel-props-and-React-Component-2b13a78e0e22804797a1ef605cb2d3fb?source=copy_link
+## Class Notes:
+https://app.notion.com/p/Lecture-02-JSX-Babel-props-and-React-Component-2b13a78e0e22804797a1ef605cb2d3fb?source=copy_link
 
 ## JSX
 
