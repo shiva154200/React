@@ -1,5 +1,8 @@
 # React Lecture 3.1 — Manual React + Vite Setup
 
+## Class Notes:
+https://app.notion.com/p/Lecture-03-Introduction-to-Vite-2b33a78e0e228056a899c8eafdf55107?source=copy_link
+
 This lecture explains **why build tools are needed** and how to manually set up a React project using **NPM and Vite** instead of relying on a project generator.
 
 ---
