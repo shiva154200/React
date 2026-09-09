@@ -2,17 +2,12 @@
 
 Learning **React.js** step by step through lectures by **Rohit Negi Sir**.
 <p>
-  <b>React Learning Playlist</b>
-  <br>
+  React Learning Playlist:
   <a href="https://youtube.com/playlist?list=PLQEaRBV9gAFvcKA4jL9BTLBfmBSGMWSOe&si=1_uXrzkwgARW-dVJ">
-    <img
-      width="20"
-      height="20"
-      alt="YouTube"
-      src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b"
-    />
+    <img width="20" height="20" alt="YouTube" src="https://github.com/user-attachments/assets/bf8f1b9b-134d-487c-bd0e-3955188b4f6b" />
   </a>
 </p>
+
 
 ## 📚 Learning Progress
 
