@@ -9,6 +9,9 @@ Learning **React.js** step by step through lectures by **Rohit Negi Sir**.
   </a>
 </p>
 
+## Notes
+https://github.com/coderarmy-notes/mern-stack-course/tree/main/04React
+
 ## 📚 Learning Progress
 
 | Lecture | Status | Main Topics |
