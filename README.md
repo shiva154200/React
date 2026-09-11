@@ -20,7 +20,8 @@ https://github.com/coderarmy-notes/mern-stack-course/tree/main/04React
 | Lecture 2 | ✅ Completed | JSX, Components, Props, `.map()`, Rendering |
 | Lecture 3.1 | ✅ Completed | Build tools, NPM, manual React + Vite setup, SemVer |
 | Lecture 3.2 | ✅ Completed | Vite scaffolding, project structure, components, deployment |
-| Lecture 4 | ⏳ Upcoming | — |
+| Lecture 4 | ✅ Completed | React development concepts and practical work |
+| Lecture 5 | ✅ Completed | `useEffect`, side effects, fetching data, timers, cleanup, dependencies, controlled inputs |
 
 ## 🗺️ Learning Roadmap
 
@@ -38,7 +39,10 @@ Lecture 3.2
 Vite Project Scaffolding
       ↓
 Lecture 4
-Coming Next
+React Development Concepts
+      ↓
+Lecture 5
+useEffect + Side Effects
 ```
 
 ## 📂 Repository Structure
@@ -64,6 +68,13 @@ React/
 │   └── dist/
 │
 ├── Lecture3.2/
+│   ├── Readme.md
+│   └── vite-project/
+│
+├── Lecture4/
+│   └── Readme.md
+│
+├── Lecture5/
 │   ├── Readme.md
 │   └── vite-project/
 │
@@ -126,6 +137,30 @@ Covered:
 - `dist/`
 - Netlify deployment
 
+### Lecture 4 — React Development
+
+[Read Lecture 4 Notes](./Lecture4/Readme.md)
+
+Contains the concepts, examples, and practical notes covered during Lecture 4.
+
+### Lecture 5 — useEffect Hook
+
+[Read Lecture 5 Notes](./Lecture5/Readme.md)
+
+Covered `useEffect` and React side effects after rendering:
+
+- What `useEffect` is and why it is needed
+- Fetching data with `fetch` and `async/await`
+- Loading and error states
+- `setInterval` and `setTimeout`
+- Cleanup functions
+- Event listeners and subscriptions
+- Dependency arrays: `[]`, `[dependency]`, and no array
+- Controlled vs uncontrolled inputs
+- Auto-save / debouncing
+- Common `useEffect` mistakes
+- Practical examples and cheatsheet
+
 ## 🔑 Important Distinction — Lecture 3.1 vs 3.2
 
 These two folders intentionally represent **two different approaches**.
@@ -156,7 +191,7 @@ Lecture 3.2 → Automate the setup
 
 ## 🚀 Current Progress
 
-**4 lecture sections completed → React learning continues with Lecture 4.**
+**6 lecture sections completed → React learning continues with the next lecture.**
 
 ---
 
